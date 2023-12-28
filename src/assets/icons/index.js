@@ -3,15 +3,10 @@ import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
 import html from './html.svg'
+import flutter from './flutter.svg'
+import Jenkins from './jenkins.svg'
 import javascript from './javascript.svg'
-import mongodb from './mongodb.svg'
-import motion from './motion.svg'
-import mui from './mui.svg'
-import nextjs from './nextjs.svg'
-import nodejs from './nodejs.svg'
-import react from './react.svg'
-import redux from './redux.svg'
-import sass from './sass.svg'
+import ansible from './ansible.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
@@ -26,6 +21,15 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import Kubernetes from './kubernets.svg'
+import React from './react.svg'
+import Linux from './linux.svg'
+import AWS from './aws.svg'
+import Docker from './docker.svg'
+import Figma from "./figma.svg";
+import OpenShift from './openshift.svg'
+import React_native from './native.svg'
+import Java from './java.svg'
 
 export {
     css,
@@ -34,14 +38,8 @@ export {
     github,
     html,
     javascript,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
-    react,
-    redux,
-    sass,
+    flutter, 
+    ansible,
     tailwindcss,
     typescript,
     linkedin,
@@ -55,5 +53,15 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    Kubernetes,
+    Jenkins,
+    React,
+    Linux,
+    AWS,
+    Docker,
+    Figma,
+    OpenShift,
+    React_native,
+    Java
 }

@@ -27,12 +27,8 @@ const  Island = ({
   // Get access to the Three.js renderer and viewport
   const { gl, viewport } = useThree();
   const { nodes, materials } = useGLTF(islandScene);
-
-  // Use a ref for the last mouse x position
   const lastX = useRef(0);
-  // Use a ref for rotation speed
   const rotationSpeed = useRef(0);
-  // Define a damping factor to control rotation damping
   const dampingFactor = 0.95;
 
   // Handle pointer (mouse or touch) down event

@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Nehal Ingole</span>
         👋
         <br />
-        Passionate Cloud Engineer and Fronted designer
+        Passionate Cloud Engineer and Frontend designer
       </h1>
     );
 
